@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  border: solid 2px rgb(225, 222, 222);
+  background-color: rgb(252, 252, 116);
+}
+
+footer {
+  border: solid 2px rgb(36, 36, 36);
+  background-color: rgb(36, 36, 36);
+  height: 140px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#buttonsOne {
+  display: flex;
+  justify-content: center;
+}
+
+#buttonsTwo {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: solid rgb(36, 36, 36) 1px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  font-size: larger;
+}
+
+#stags {
+  width: 420px;
+  height: 200px;
+}
+
+#brightonpride {
+  width: 420px;
+  height: 200px;
+}
+
+#spartans {
+  width: 350px;
+  height: 200px;
+}
+#location {
+  font-size: large;
+  background-color: white;
+  border: solid 5px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+#name {
+  font-size: large;
+}
+#newsletterinput {
+  width: 150px;
+}
+
+#newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+#sectionone {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  border: solid 2px rgb(225, 222, 222);
+  background-color: white;
+  padding: 10px;
+}
+
+#sectiontwo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  border: solid 2px rgb(225, 222, 222);
+  background-color: rgb(18, 152, 197);
+  padding: 10px;
+}
+
+#sectionfour {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#sectionfive {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#sectionsix {
+  border: solid 2px rgb(36, 36, 36);
+  background-color: rgb(36, 36, 36);
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+#charity {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid white;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#submit {
+  width: 100px;
+}
+
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* main styles */
+  position: fixed;
+  top: 0;
+}
+
+#tim {
+}
